@@ -1,0 +1,35 @@
+################################### Aliases ###########################################
+
+####### Bash #######
+
+alias ll='ls -l'
+alias la='ls -la'
+
+alias bashsrc='source ~/.bash_profile'
+
+
+####### Docker #######
+
+alias dk='docker'
+
+## Containers ##
+alias dkc='docker container'
+alias dkci='docker container inspect'
+
+## Image ##
+alias dki='docker image'
+
+## Service ##
+alias dks='docker service'
+alias dksl='docker service ls'
+alias dksp='docker service ps'
+
+alias dkhost='export DOCKER_HOST=ssh://$1'
+
+# GZip.gz Zipping
+alias gzip='tar -zcvf'
+alias gunzip='tar -zxvf'
+
+# Git Functions
+alias gcgc='git clone https://github.com/'
+
