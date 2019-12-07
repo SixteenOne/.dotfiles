@@ -1,5 +1,10 @@
 ################################### Aliases ###########################################
 
+## Add to Bash Profile
+## if [ -f ~/.dotfiles/.dotfiles ]; then
+##    . ~/.dotfiles/.dotfiles
+## fi
+
 ####### Bash #######
 
 alias ll='ls -l'
