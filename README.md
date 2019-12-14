@@ -5,6 +5,8 @@ My dotfiles
 
 Some Aliases go here:
 
++ Lists
+
 ## Functions
 
 Some Functions go here:
