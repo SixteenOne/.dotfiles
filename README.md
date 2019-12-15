@@ -6,6 +6,7 @@ My dotfiles
 Some Aliases go here:
 
 + Lists
++ Lists with dotfiles
 
 ## Functions
 
