@@ -12,6 +12,10 @@ alias la='ls -la'
 
 alias bashsrc='source ~/.bash_profile'
 
+alias 1.='cd ..'
+alias 2.='cd ../..'
+
+alias jj='sudo !!'
 
 ####### Docker #######
 
