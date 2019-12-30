@@ -17,6 +17,14 @@ alias 2.='cd ../..'
 
 alias jj='sudo !!'
 
+####### Functions #######
+
+mkcd ()
+{
+  mkdir -p -- "$1" && cd -P -- "$1"
+}
+
+
 ####### Docker #######
 
 alias dk='docker'
