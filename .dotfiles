@@ -44,6 +44,16 @@ alias dks='docker service'
 alias dksl='docker service ls'
 alias dksp='docker service ps'
 
+## Network ##
+alias dkn='docker network'
+alias dknl='docker network ls'
+alias dknc='docker network create'
+
+## Volume ##
+alias dkv='docker volume'
+alias dkvl='docker volume ls'
+alias dkvc='docker volume create'
+
 ## Context ##
 alias dkx='docker context'
 alias dkxl='docker context ls'
@@ -55,5 +65,9 @@ alias gzip='tar -zcvf'
 alias gunzip='tar -zxvf'
 
 # Git Functions
-alias gcgc='git clone https://github.com/'
-
+alias gitc='git clone https://github.com/'
+alias gits='git status'
+alias gita='git add'
+alias gits='git push'
+alias gitl='git pull'
+alias gitco='git commit -m "$1"'
