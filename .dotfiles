@@ -20,6 +20,8 @@ alias home='cd ~/'
 
 alias jj='sudo !!'
 
+alias sdown='sudo shutdown -H -P 0'
+
 ####### Functions #######
 
 mkcd ()
