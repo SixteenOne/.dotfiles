@@ -31,8 +31,8 @@ mkcd ()
 
 ####### Kubernetes #######
 
-alias k='sudo kubectl'
-
+alias k='kubectl'
+alias kx='kubectx'
 
 ####### Docker #######
 
