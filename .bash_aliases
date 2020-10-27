@@ -29,7 +29,7 @@ mkcd ()
   mkdir -p -- "$1" && cd -P -- "$1"
 }
 
-####### Kubernetes #######
+####### Kubernetes #########
 
 alias k='kubectl'
 alias kx='kubectx'
