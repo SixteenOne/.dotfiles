@@ -33,9 +33,16 @@ mkcd ()
 
 alias k='kubectl'
 alias kx='kubectx'
+## Get
 alias kg='kubectl get'
+alias kgs='kubectl get svc'
+alias kgd='kubectl get deploy'
+## Apply
 alias ka='kubectl apply -f'
+## Describe
 alias kd='kubectl describe'
+alias kds='kubectl describe svc'
+alias kdd='kubectl describe deploy'
 
 ####### Docker #######
 
